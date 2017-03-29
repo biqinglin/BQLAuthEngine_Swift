@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172AC12B1E7A96DF007912E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AC12A1E7A96DF007912E1 /* AppDelegate.swift */; };
+		172AC12D1E7A96DF007912E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AC12C1E7A96DF007912E1 /* ViewController.swift */; };
+		172AC1301E7A96DF007912E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172AC12E1E7A96DF007912E1 /* Main.storyboard */; };
+		172AC1321E7A96DF007912E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172AC1311E7A96DF007912E1 /* Assets.xcassets */; };
+		172AC1351E7A96DF007912E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172AC1331E7A96DF007912E1 /* LaunchScreen.storyboard */; };
+		172AC1401E7A96DF007912E1 /* BQLAuthEngine_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AC13F1E7A96DF007912E1 /* BQLAuthEngine_SwiftTests.swift */; };
+		172AC14B1E7A96DF007912E1 /* BQLAuthEngine_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AC14A1E7A96DF007912E1 /* BQLAuthEngine_SwiftUITests.swift */; };
+		172AC16A1E7A979C007912E1 /* qqf.png in Resources */ = {isa = PBXBuildFile; fileRef = 172AC15A1E7A979C007912E1 /* qqf.png */; };
+		172AC16B1E7A979C007912E1 /* qqz.png in Resources */ = {isa = PBXBuildFile; fileRef = 172AC15B1E7A979C007912E1 /* qqz.png */; };
+		172AC16C1E7A979C007912E1 /* wechatf.png in Resources */ = {isa = PBXBuildFile; fileRef = 172AC15C1E7A979C007912E1 /* wechatf.png */; };
+		172AC16D1E7A979C007912E1 /* wechatt.png in Resources */ = {isa = PBXBuildFile; fileRef = 172AC15D1E7A979C007912E1 /* wechatt.png */; };
+		172AC16E1E7A979C007912E1 /* weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 172AC15E1E7A979C007912E1 /* weibo.png */; };
+		172AC16F1E7A979C007912E1 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172AC1611E7A979C007912E1 /* TencentOpenAPI.framework */; };
+		172AC1701E7A979C007912E1 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 172AC1621E7A979C007912E1 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		172AC1711E7A979C007912E1 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 172AC1651E7A979C007912E1 /* libWeChatSDK.a */; };
+		172AC1721E7A979C007912E1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 172AC1661E7A979C007912E1 /* README.txt */; };
+		172AC1751E7A9834007912E1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172AC1741E7A9834007912E1 /* SystemConfiguration.framework */; };
+		172AC1771E7A983B007912E1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172AC1761E7A983B007912E1 /* CoreTelephony.framework */; };
+		172AC1791E7A9841007912E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172AC1781E7A9841007912E1 /* CoreGraphics.framework */; };
+		172AC17B1E7A9849007912E1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 172AC17A1E7A9849007912E1 /* libsqlite3.tbd */; };
+		172AC17D1E7A984F007912E1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 172AC17C1E7A984F007912E1 /* libz.tbd */; };
+		172AC17F1E7A985F007912E1 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 172AC17E1E7A985F007912E1 /* libstdc++.tbd */; };
+		172AC1811E7A9868007912E1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 172AC1801E7A9868007912E1 /* libc++.tbd */; };
+		172AC1831E7A9875007912E1 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 172AC1821E7A9875007912E1 /* libiconv.tbd */; };
+		172AC1851E7A9F23007912E1 /* BQLShareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AC1841E7A9F23007912E1 /* BQLShareModel.swift */; };
+		172AC1871E7A9F3F007912E1 /* BQLAuthEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AC1861E7A9F3F007912E1 /* BQLAuthEngine.swift */; };
+		A52FD5E4D7A9C3AF5354E1EA /* Pods_BQLAuthEngine_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89ADBCDDB8801EB9A2724042 /* Pods_BQLAuthEngine_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		172AC13C1E7A96DF007912E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172AC11F1E7A96DF007912E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172AC1261E7A96DF007912E1;
+			remoteInfo = BQLAuthEngine_Swift;
+		};
+		172AC1471E7A96DF007912E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172AC11F1E7A96DF007912E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172AC1261E7A96DF007912E1;
+			remoteInfo = BQLAuthEngine_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		172AC1271E7A96DF007912E1 /* BQLAuthEngine_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BQLAuthEngine_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		172AC12A1E7A96DF007912E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		172AC12C1E7A96DF007912E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		172AC12F1E7A96DF007912E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		172AC1311E7A96DF007912E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		172AC1341E7A96DF007912E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		172AC1361E7A96DF007912E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172AC13B1E7A96DF007912E1 /* BQLAuthEngine_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BQLAuthEngine_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		172AC13F1E7A96DF007912E1 /* BQLAuthEngine_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BQLAuthEngine_SwiftTests.swift; sourceTree = "<group>"; };
+		172AC1411E7A96DF007912E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172AC1461E7A96DF007912E1 /* BQLAuthEngine_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BQLAuthEngine_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		172AC14A1E7A96DF007912E1 /* BQLAuthEngine_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BQLAuthEngine_SwiftUITests.swift; sourceTree = "<group>"; };
+		172AC14C1E7A96DF007912E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172AC15A1E7A979C007912E1 /* qqf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qqf.png; sourceTree = "<group>"; };
+		172AC15B1E7A979C007912E1 /* qqz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qqz.png; sourceTree = "<group>"; };
+		172AC15C1E7A979C007912E1 /* wechatf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wechatf.png; sourceTree = "<group>"; };
+		172AC15D1E7A979C007912E1 /* wechatt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wechatt.png; sourceTree = "<group>"; };
+		172AC15E1E7A979C007912E1 /* weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weibo.png; sourceTree = "<group>"; };
+		172AC1611E7A979C007912E1 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		172AC1621E7A979C007912E1 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		172AC1651E7A979C007912E1 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		172AC1661E7A979C007912E1 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		172AC1671E7A979C007912E1 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		172AC1681E7A979C007912E1 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		172AC1691E7A979C007912E1 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		172AC1741E7A9834007912E1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		172AC1761E7A983B007912E1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		172AC1781E7A9841007912E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		172AC17A1E7A9849007912E1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		172AC17C1E7A984F007912E1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		172AC17E1E7A985F007912E1 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		172AC1801E7A9868007912E1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		172AC1821E7A9875007912E1 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		172AC1841E7A9F23007912E1 /* BQLShareModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BQLShareModel.swift; sourceTree = "<group>"; };
+		172AC1861E7A9F3F007912E1 /* BQLAuthEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BQLAuthEngine.swift; sourceTree = "<group>"; };
+		173155921E821F0700984BB4 /* BQLAuthEngine_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BQLAuthEngine_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		359C512CBF9591E77006F871 /* Pods-BQLAuthEngine_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BQLAuthEngine_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-BQLAuthEngine_Swift/Pods-BQLAuthEngine_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		6B488EAD678087140E4DF115 /* Pods-BQLAuthEngine_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BQLAuthEngine_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BQLAuthEngine_Swift/Pods-BQLAuthEngine_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		89ADBCDDB8801EB9A2724042 /* Pods_BQLAuthEngine_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BQLAuthEngine_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172AC1241E7A96DF007912E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AC1831E7A9875007912E1 /* libiconv.tbd in Frameworks */,
+				172AC1811E7A9868007912E1 /* libc++.tbd in Frameworks */,
+				172AC17F1E7A985F007912E1 /* libstdc++.tbd in Frameworks */,
+				172AC17D1E7A984F007912E1 /* libz.tbd in Frameworks */,
+				172AC17B1E7A9849007912E1 /* libsqlite3.tbd in Frameworks */,
+				172AC1791E7A9841007912E1 /* CoreGraphics.framework in Frameworks */,
+				172AC1771E7A983B007912E1 /* CoreTelephony.framework in Frameworks */,
+				172AC1751E7A9834007912E1 /* SystemConfiguration.framework in Frameworks */,
+				172AC1711E7A979C007912E1 /* libWeChatSDK.a in Frameworks */,
+				172AC16F1E7A979C007912E1 /* TencentOpenAPI.framework in Frameworks */,
+				A52FD5E4D7A9C3AF5354E1EA /* Pods_BQLAuthEngine_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AC1381E7A96DF007912E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AC1431E7A96DF007912E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172AC11E1E7A96DF007912E1 = {
+			isa = PBXGroup;
+			children = (
+				172AC1291E7A96DF007912E1 /* BQLAuthEngine_Swift */,
+				172AC13E1E7A96DF007912E1 /* BQLAuthEngine_SwiftTests */,
+				172AC1491E7A96DF007912E1 /* BQLAuthEngine_SwiftUITests */,
+				172AC1281E7A96DF007912E1 /* Products */,
+				172AC1731E7A9834007912E1 /* Frameworks */,
+				5F24C1CEFC220B6755259C02 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		172AC1281E7A96DF007912E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				172AC1271E7A96DF007912E1 /* BQLAuthEngine_Swift.app */,
+				172AC13B1E7A96DF007912E1 /* BQLAuthEngine_SwiftTests.xctest */,
+				172AC1461E7A96DF007912E1 /* BQLAuthEngine_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		172AC1291E7A96DF007912E1 /* BQLAuthEngine_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				172AC1581E7A9731007912E1 /* BQLAuthEngine_Swift */,
+				172AC12A1E7A96DF007912E1 /* AppDelegate.swift */,
+				172AC12C1E7A96DF007912E1 /* ViewController.swift */,
+				172AC12E1E7A96DF007912E1 /* Main.storyboard */,
+				172AC1311E7A96DF007912E1 /* Assets.xcassets */,
+				172AC1331E7A96DF007912E1 /* LaunchScreen.storyboard */,
+				172AC1361E7A96DF007912E1 /* Info.plist */,
+				173155921E821F0700984BB4 /* BQLAuthEngine_Swift-Bridging-Header.h */,
+			);
+			path = BQLAuthEngine_Swift;
+			sourceTree = "<group>";
+		};
+		172AC13E1E7A96DF007912E1 /* BQLAuthEngine_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				172AC13F1E7A96DF007912E1 /* BQLAuthEngine_SwiftTests.swift */,
+				172AC1411E7A96DF007912E1 /* Info.plist */,
+			);
+			path = BQLAuthEngine_SwiftTests;
+			sourceTree = "<group>";
+		};
+		172AC1491E7A96DF007912E1 /* BQLAuthEngine_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				172AC14A1E7A96DF007912E1 /* BQLAuthEngine_SwiftUITests.swift */,
+				172AC14C1E7A96DF007912E1 /* Info.plist */,
+			);
+			path = BQLAuthEngine_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		172AC1581E7A9731007912E1 /* BQLAuthEngine_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				172AC1841E7A9F23007912E1 /* BQLShareModel.swift */,
+				172AC1861E7A9F3F007912E1 /* BQLAuthEngine.swift */,
+				172AC1591E7A979C007912E1 /* images */,
+				172AC15F1E7A979C007912E1 /* SDK */,
+			);
+			path = BQLAuthEngine_Swift;
+			sourceTree = "<group>";
+		};
+		172AC1591E7A979C007912E1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				172AC15A1E7A979C007912E1 /* qqf.png */,
+				172AC15B1E7A979C007912E1 /* qqz.png */,
+				172AC15C1E7A979C007912E1 /* wechatf.png */,
+				172AC15D1E7A979C007912E1 /* wechatt.png */,
+				172AC15E1E7A979C007912E1 /* weibo.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		172AC15F1E7A979C007912E1 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				172AC1601E7A979C007912E1 /* QQ */,
+				172AC1631E7A979C007912E1 /* Sina */,
+				172AC1641E7A979C007912E1 /* Wechat */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		172AC1601E7A979C007912E1 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				172AC1611E7A979C007912E1 /* TencentOpenAPI.framework */,
+				172AC1621E7A979C007912E1 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		172AC1631E7A979C007912E1 /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		172AC1641E7A979C007912E1 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				172AC1651E7A979C007912E1 /* libWeChatSDK.a */,
+				172AC1661E7A979C007912E1 /* README.txt */,
+				172AC1671E7A979C007912E1 /* WechatAuthSDK.h */,
+				172AC1681E7A979C007912E1 /* WXApi.h */,
+				172AC1691E7A979C007912E1 /* WXApiObject.h */,
+			);
+			path = Wechat;
+			sourceTree = "<group>";
+		};
+		172AC1731E7A9834007912E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				172AC1821E7A9875007912E1 /* libiconv.tbd */,
+				172AC1801E7A9868007912E1 /* libc++.tbd */,
+				172AC17E1E7A985F007912E1 /* libstdc++.tbd */,
+				172AC17C1E7A984F007912E1 /* libz.tbd */,
+				172AC17A1E7A9849007912E1 /* libsqlite3.tbd */,
+				172AC1781E7A9841007912E1 /* CoreGraphics.framework */,
+				172AC1761E7A983B007912E1 /* CoreTelephony.framework */,
+				172AC1741E7A9834007912E1 /* SystemConfiguration.framework */,
+				89ADBCDDB8801EB9A2724042 /* Pods_BQLAuthEngine_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F24C1CEFC220B6755259C02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B488EAD678087140E4DF115 /* Pods-BQLAuthEngine_Swift.debug.xcconfig */,
+				359C512CBF9591E77006F871 /* Pods-BQLAuthEngine_Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		172AC1261E7A96DF007912E1 /* BQLAuthEngine_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172AC14F1E7A96DF007912E1 /* Build configuration list for PBXNativeTarget "BQLAuthEngine_Swift" */;
+			buildPhases = (
+				3D4B7C4A3B24213435004A3F /* [CP] Check Pods Manifest.lock */,
+				172AC1231E7A96DF007912E1 /* Sources */,
+				172AC1241E7A96DF007912E1 /* Frameworks */,
+				172AC1251E7A96DF007912E1 /* Resources */,
+				F4AA3903FB7316CF6B32BA97 /* [CP] Embed Pods Frameworks */,
+				313E7B832F81CA7E6FEB5F03 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BQLAuthEngine_Swift;
+			productName = BQLAuthEngine_Swift;
+			productReference = 172AC1271E7A96DF007912E1 /* BQLAuthEngine_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		172AC13A1E7A96DF007912E1 /* BQLAuthEngine_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172AC1521E7A96DF007912E1 /* Build configuration list for PBXNativeTarget "BQLAuthEngine_SwiftTests" */;
+			buildPhases = (
+				172AC1371E7A96DF007912E1 /* Sources */,
+				172AC1381E7A96DF007912E1 /* Frameworks */,
+				172AC1391E7A96DF007912E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172AC13D1E7A96DF007912E1 /* PBXTargetDependency */,
+			);
+			name = BQLAuthEngine_SwiftTests;
+			productName = BQLAuthEngine_SwiftTests;
+			productReference = 172AC13B1E7A96DF007912E1 /* BQLAuthEngine_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		172AC1451E7A96DF007912E1 /* BQLAuthEngine_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172AC1551E7A96DF007912E1 /* Build configuration list for PBXNativeTarget "BQLAuthEngine_SwiftUITests" */;
+			buildPhases = (
+				172AC1421E7A96DF007912E1 /* Sources */,
+				172AC1431E7A96DF007912E1 /* Frameworks */,
+				172AC1441E7A96DF007912E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172AC1481E7A96DF007912E1 /* PBXTargetDependency */,
+			);
+			name = BQLAuthEngine_SwiftUITests;
+			productName = BQLAuthEngine_SwiftUITests;
+			productReference = 172AC1461E7A96DF007912E1 /* BQLAuthEngine_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		172AC11F1E7A96DF007912E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = biqinglin;
+				TargetAttributes = {
+					172AC1261E7A96DF007912E1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UCG3JW5WXD;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					172AC13A1E7A96DF007912E1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UCG3JW5WXD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 172AC1261E7A96DF007912E1;
+					};
+					172AC1451E7A96DF007912E1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UCG3JW5WXD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 172AC1261E7A96DF007912E1;
+					};
+				};
+			};
+			buildConfigurationList = 172AC1221E7A96DF007912E1 /* Build configuration list for PBXProject "BQLAuthEngine_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 172AC11E1E7A96DF007912E1;
+			productRefGroup = 172AC1281E7A96DF007912E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				172AC1261E7A96DF007912E1 /* BQLAuthEngine_Swift */,
+				172AC13A1E7A96DF007912E1 /* BQLAuthEngine_SwiftTests */,
+				172AC1451E7A96DF007912E1 /* BQLAuthEngine_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		172AC1251E7A96DF007912E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AC1351E7A96DF007912E1 /* LaunchScreen.storyboard in Resources */,
+				172AC16B1E7A979C007912E1 /* qqz.png in Resources */,
+				172AC16E1E7A979C007912E1 /* weibo.png in Resources */,
+				172AC1321E7A96DF007912E1 /* Assets.xcassets in Resources */,
+				172AC1721E7A979C007912E1 /* README.txt in Resources */,
+				172AC16A1E7A979C007912E1 /* qqf.png in Resources */,
+				172AC16C1E7A979C007912E1 /* wechatf.png in Resources */,
+				172AC1701E7A979C007912E1 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				172AC16D1E7A979C007912E1 /* wechatt.png in Resources */,
+				172AC1301E7A96DF007912E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AC1391E7A96DF007912E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AC1441E7A96DF007912E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		313E7B832F81CA7E6FEB5F03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BQLAuthEngine_Swift/Pods-BQLAuthEngine_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D4B7C4A3B24213435004A3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4AA3903FB7316CF6B32BA97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BQLAuthEngine_Swift/Pods-BQLAuthEngine_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		172AC1231E7A96DF007912E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AC12D1E7A96DF007912E1 /* ViewController.swift in Sources */,
+				172AC1871E7A9F3F007912E1 /* BQLAuthEngine.swift in Sources */,
+				172AC12B1E7A96DF007912E1 /* AppDelegate.swift in Sources */,
+				172AC1851E7A9F23007912E1 /* BQLShareModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AC1371E7A96DF007912E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AC1401E7A96DF007912E1 /* BQLAuthEngine_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AC1421E7A96DF007912E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AC14B1E7A96DF007912E1 /* BQLAuthEngine_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		172AC13D1E7A96DF007912E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172AC1261E7A96DF007912E1 /* BQLAuthEngine_Swift */;
+			targetProxy = 172AC13C1E7A96DF007912E1 /* PBXContainerItemProxy */;
+		};
+		172AC1481E7A96DF007912E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172AC1261E7A96DF007912E1 /* BQLAuthEngine_Swift */;
+			targetProxy = 172AC1471E7A96DF007912E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		172AC12E1E7A96DF007912E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172AC12F1E7A96DF007912E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		172AC1331E7A96DF007912E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172AC1341E7A96DF007912E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		172AC14D1E7A96DF007912E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		172AC14E1E7A96DF007912E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172AC1501E7A96DF007912E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B488EAD678087140E4DF115 /* Pods-BQLAuthEngine_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = UCG3JW5WXD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BQLAuthEngine_Swift/BQLAuthEngine_Swift/SDK/QQ",
+				);
+				INFOPLIST_FILE = BQLAuthEngine_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BQLAuthEngine_Swift/BQLAuthEngine_Swift/SDK/Wechat",
+				);
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.llfinance.BQLAuthEngine-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BQLAuthEngine_Swift/BQLAuthEngine_Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		172AC1511E7A96DF007912E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359C512CBF9591E77006F871 /* Pods-BQLAuthEngine_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = UCG3JW5WXD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BQLAuthEngine_Swift/BQLAuthEngine_Swift/SDK/QQ",
+				);
+				INFOPLIST_FILE = BQLAuthEngine_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BQLAuthEngine_Swift/BQLAuthEngine_Swift/SDK/Wechat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.llfinance.BQLAuthEngine-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BQLAuthEngine_Swift/BQLAuthEngine_Swift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		172AC1531E7A96DF007912E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UCG3JW5WXD;
+				INFOPLIST_FILE = BQLAuthEngine_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "llfinance.BQLAuthEngine-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQLAuthEngine_Swift.app/BQLAuthEngine_Swift";
+			};
+			name = Debug;
+		};
+		172AC1541E7A96DF007912E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UCG3JW5WXD;
+				INFOPLIST_FILE = BQLAuthEngine_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "llfinance.BQLAuthEngine-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQLAuthEngine_Swift.app/BQLAuthEngine_Swift";
+			};
+			name = Release;
+		};
+		172AC1561E7A96DF007912E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UCG3JW5WXD;
+				INFOPLIST_FILE = BQLAuthEngine_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "llfinance.BQLAuthEngine-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BQLAuthEngine_Swift;
+			};
+			name = Debug;
+		};
+		172AC1571E7A96DF007912E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UCG3JW5WXD;
+				INFOPLIST_FILE = BQLAuthEngine_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "llfinance.BQLAuthEngine-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BQLAuthEngine_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172AC1221E7A96DF007912E1 /* Build configuration list for PBXProject "BQLAuthEngine_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172AC14D1E7A96DF007912E1 /* Debug */,
+				172AC14E1E7A96DF007912E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172AC14F1E7A96DF007912E1 /* Build configuration list for PBXNativeTarget "BQLAuthEngine_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172AC1501E7A96DF007912E1 /* Debug */,
+				172AC1511E7A96DF007912E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172AC1521E7A96DF007912E1 /* Build configuration list for PBXNativeTarget "BQLAuthEngine_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172AC1531E7A96DF007912E1 /* Debug */,
+				172AC1541E7A96DF007912E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172AC1551E7A96DF007912E1 /* Build configuration list for PBXNativeTarget "BQLAuthEngine_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172AC1561E7A96DF007912E1 /* Debug */,
+				172AC1571E7A96DF007912E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 172AC11F1E7A96DF007912E1 /* Project object */;
+}
